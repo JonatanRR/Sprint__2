@@ -1,3 +1,55 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+$success: #6c757d;
+$danger: #242946;
+$navbar-light-toggler-icon-bg: url(/images/icon-hamburger.svg);
+$accordion-button-icon: url(/images/icon-arrow.svg);
+$form-feedback-icon-invalid: url(/images/icon-error.svg);
+
+.pic {
+    width: 70%;
+}
+
+p {
+    color: $success;
+}
+
+.card {
+    margin: 50px;
+}
+
+.stain {
+    height: 70%;
+    width: 93%;
+    left: 25%;
+    top: 25%;
+    border-bottom-left-radius: 100px;
+    z-index: -1;
+}
+
+.stain2 {
+    height: 70%;
+    width: 100%;
+    right: 35%;
+    top: 45%;
+    border-radius: 200px;
+    z-index: -1;
+}
+
+.stain3 {
+    height: 60%;
+    width: 100%;
+    right: 35%;
+    top: 45%;
+    border-radius: 200px;
+    z-index: -1;
+}
+
+
+.collapse .navbar-nav .nav-item .btn {
+    color: white;
+    
+}
 
 
 
