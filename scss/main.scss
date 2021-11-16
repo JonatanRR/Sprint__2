@@ -45,11 +45,60 @@ p {
     z-index: -1;
 }
 
+.dots {
+    width: 100%;
+}
+
+.nav-tabs .nav-item .nav-link {
+    border: 0px;
+    color:grey;
+    &.active {
+        border-bottom: 5px solid $secondary;
+        color: black;
+    }
+    
+}
+
+.accordion-flush {
+    border-bottom: 1px solid rgb(216, 215, 215);
+    border-top: 1px solid rgb(216, 215, 215);
+}
+
+.white-block {
+    height: 200px;
+}
+
+.contact {
+    height: 300px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+}
 
 .collapse .navbar-nav .nav-item .btn {
     color: white;
     
 }
+
+
+
+
+
+
+
+
+.button4 .contact-button {
+    color: white;
+    
+}
+
+
+
 
 
 

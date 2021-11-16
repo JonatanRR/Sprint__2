@@ -37,7 +37,46 @@ p {
   z-index: -1;
 }
 
+.dots {
+  width: 100%;
+}
+
+.nav-tabs .nav-item .nav-link {
+  border: 0px;
+  color: grey;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  border-bottom: 5px solid #FA5959;
+  color: black;
+}
+
+.accordion-flush {
+  border-bottom: 1px solid #d8d7d7;
+  border-top: 1px solid #d8d7d7;
+}
+
+.white-block {
+  height: 200px;
+}
+
+.contact {
+  height: 300px;
+}
+
+.footer {
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+}
+
 .collapse .navbar-nav .nav-item .btn {
+  color: white;
+}
+
+.button4 .contact-button {
   color: white;
 }
 
